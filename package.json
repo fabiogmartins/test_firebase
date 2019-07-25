@@ -1,0 +1,27 @@
+{
+  "name": "functions",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "debug": "ts-node-dev src/index.ts"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.3.0",
+    "async": "^3.1.0",
+    "firebase": "^5.3.1",
+    "firebase-admin": "^5.12.1",
+    "grpc": "^1.13.1",
+    "replace-ext": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/replace-ext": "0.0.27",
+    "ts-node": "^6.0.3",
+    "ts-node-dev": "^1.0.0-pre.22",
+    "tslint": "^5.8.0",
+    "typescript": "^3.0.1",
+    "firebase-tools": "^4.0.3"
+  },
+  "private": true
+}
